@@ -2,6 +2,9 @@
 # each class some functions and some properties name object of str
 # : array so mean from and to -> ms excel =sum(A1:A10)
 
+from itertools import count
+
+
 note = "This is some Kamal dummy text here and I want to find the string called Kamal"
 
 # the string is the array 
@@ -21,9 +24,8 @@ note = "This is some Kamal dummy text here and I want to find the string called 
 name = "Jamal"
 lastname = "Kamal"
 
-fullname = name + " " + lastname
 
-# UPPERCASE, lowercase, Propercase = sentence case
+# UPPERCASE, lowercase, Propercase = sentence case -> capitalize
 # print(fullname.lower())
 # print(fullname.upper())
 # print(fullname.sptip())
@@ -44,5 +46,15 @@ fullname = name + " " + lastname
 
 # print(fullname.split(',')) -> always it return the array
 
-print(fullname)
+# {} string placeholders - string interplution
 
+# age = 24
+# country = "Afghanistan"
+
+
+# bio = "This is {1} {0}, {2} years old and living in {3}"
+
+# print(bio.format())
+
+
+#  this is the end of the file
