@@ -57,5 +57,41 @@
 # print(input[1:] + input[0])
 
 
+# 9. Write a program in python that accepts a string to set up a password.
+#  Your entered password must meet the following requirements:
+
+# The password must be at least eight characters long.
+# It must contain at least one uppercase letter.
+# It must contain at least one lowercase letter.
+# It must contain at least one numeric digit.
+
+# password = input("Please enter the password: ") # 123@Home
+
+# length = lowerCase = upperCase = digit = False
+
+# if len(password) >= 8 : 
+#     length = True
+
+# for letter in password:
+#     if letter.islower():
+#         lowerCase = True
+#     elif letter.isupper():
+#         upperCase = True
+#     elif letter.isdigit():
+#         digit = True
+
+# if length and upperCase and lowerCase and digit:
+#     print('The password is valid')
+# elif not length:
+#     print('The password should be atleast 8 chars.')
+# elif not upperCase:
+#     print('The password should contain uppcase')
+# elif not lowerCase:
+#     print('The password should contain at least a lowercase letter')
+# elif not digit:
+#     print('The password should contain a digit')
+
+
+
 
 
