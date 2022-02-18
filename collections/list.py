@@ -4,7 +4,12 @@
 # To update more
 # accept duplicate values
 
-students = ["Jamal", "Kamal", "omid", "Asra"]
+students = [
+    ["Jamal", 10],
+    ["Kamal", 12],
+    ["Baheer", 20],
+    ["Asra", 5]
+]
 
 # Accessing the itmes
 # print(students[2])
@@ -28,7 +33,7 @@ students = ["Jamal", "Kamal", "omid", "Asra"]
 # insert a new time
 # students.insert(1, "Parwin")
 
-# Extend the list 
+# Extend the list
 # newStudents = ["Alex", "Gareth"]
 # newStudents.extend(students)
 
@@ -46,6 +51,11 @@ students = ["Jamal", "Kamal", "omid", "Asra"]
 
 # Clear all the list items
 # students.clear()
+
+# sort the list
+
+# students.sort(key=lambda student: student[1], reverse=True)
+
 
 print(students)
 

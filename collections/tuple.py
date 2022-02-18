@@ -36,3 +36,7 @@ students = ("Jamal", "Kamal", "omid", "Asra")
 # students[0] = "Ahmad"
 
 # print(students)
+
+# sort the typle
+
+print(students)
