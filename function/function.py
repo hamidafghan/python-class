@@ -62,16 +62,22 @@
 # ...
 # step 6 => xxx *1 => xxx
 
-def factorial(number):
+# def factorial(number):
 
-    if number == 0:
-        return "No valid number"
+#     if number == 0:
+#         return "No valid number"
 
-    if number == 1:
-        return number
-    else:
-        return (number * factorial(number - 1))
+#     if number == 1:
+#         return number
+#     else:
+#         return (number * factorial(number - 1))
 
-restult = factorial(0)
+# restult = factorial(0)
 
-print(type(restult))
+# print(type(restult))
+
+# Lamba function -> lamba arguments: expresion
+
+# sum = lambda x,y: x+y
+
+# print(sum(10,20))
