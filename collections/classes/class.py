@@ -29,3 +29,32 @@ class Developer:
 # class SomeThing:
 #     pass
 # print("I am fine")
+
+#  Getter and setter
+class Student:
+    __name = ""
+    __last_name = ""
+
+    def set_name(self, name):
+        #  Some validations
+        self.__name = name
+
+    def get_name(self) -> str:
+        return "MR. " + self.__name
+
+    def set_last_name(self, last_name):
+        self.__last_name = last_name
+
+    def get_last_name(self) -> str:
+        return self.__last_name
+
+
+student = Student()
+
+#  Set the value
+student.set_name("Kamal")
+student.set_last_name("Jamal")
+
+# Get the value
+print(student.get_name())
+print(student.get_last_name())
