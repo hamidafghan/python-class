@@ -9,18 +9,19 @@ class Human:
     def full_name(self):
         return self.name + " " + self.last_name
 
+
 class Employee:
     def __init__(self, per_hour) -> None:
         self.per_hour = per_hour
 
     def calculate_salary(self, hours):
         return self.per_hour * hours
-        
-class Developer(Human,Employee):
+
+
+class Developer(Human, Employee):
     def __init__(self, name, last_name, per_hour) -> None:
         Human.__init__(self, name, last_name)
         Employee.__init__(self, per_hour)
-
 
 
 jamal = Developer("Jamal", "Kamal", 50)
