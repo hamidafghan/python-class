@@ -1,11 +1,12 @@
 config = {
-    "version" : 1,
-    "last_update": "Today"
+    "version": 1,
+    "last_update": "yesterday"
 }
 
 
 def getVersion():
     return config["version"]
+
 
 class Student:
     def __init__(self, name, last_name, year) -> None:
@@ -14,7 +15,7 @@ class Student:
         self.year = year
 
     def getClass(self):
-        return int(self.year)
+        return int(self.year+1)
 
     def full_name(self):
-        return str(self.name) + " "+ str(self.last_name)
+        return str(self.name) + " " + str(self.last_name)

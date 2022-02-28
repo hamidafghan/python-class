@@ -3,7 +3,8 @@
 
 # print(student_module.config)
 
+from student import Student
 
-import math
+jamal = Student("jamal", "Kamal", 4)
 
-print(math.pow(2,3))
+print(jamal.getClass())
