@@ -15,7 +15,7 @@ class Student:
         self.year = year
 
     def getClass(self):
-        return int(self.year+1)
+        return int(self.year+2)
 
     def full_name(self):
         return str(self.name) + " " + str(self.last_name)
